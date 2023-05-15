@@ -19,7 +19,7 @@ const defaultParams: smtpJSParams = {
   Host: process.env.SMTP_HOST!,
   Username: process.env.SMTP_USERNAME!,
   Password: process.env.SMTP_PASSWORD!,
-  From: process.env.SMTP_USERNAME!,
+  From: process.env.SMTP_FROM!,
   Subject: "[ChatGPT-Admin-Web] 验证码",
   Action: "Send",
 };
